@@ -1,7 +1,7 @@
 # holbertonschool-web-development
 
-In this repo we will create the structure of the first Holberton project.
+THis is the html section.
 
-It will consist of 3 section.
+It has 7 tasks.
 
 ![alt text](../logo.png)
