@@ -1,0 +1,108 @@
+/* ==== RESET DEFAULT ==== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* ==== SECTION ==== */
+
+.tutorials {
+    background-color: white;
+    /* width: 800px; */
+    height: 600px;
+    /* text-align: center; */
+}
+
+
+/* ==== H1 ==== */
+
+.tutorials h1 {
+    font-size: 32px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.tutorials h1 > span {
+    color: #C271FF;
+    font-weight: 700;
+}
+
+
+/* ==== VIDEO CONTAINER ==== */
+
+.tutorials > div {
+    display: flex;
+    justify-content: center;
+    gap: 31px;
+}
+
+.tutorials > div > div {
+    width: 255px;
+    height: 335px;
+}
+
+.tutorials > div > div > img {
+    width: 255px;
+    height: 154px;
+}
+
+.tutorials h2 {
+    margin-left: 13px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.tutorials > div > div > p {
+    text-align: center;
+    font-size: 14px;
+}
+
+
+/* ==== AUTHOR SECTION ==== */
+
+.author {
+    display: flex;
+}
+
+.author img {
+    width: 30px;
+    height: 30px;
+    margin-left: 13px;
+}
+
+.author h3 {
+    margin: 6px;
+    font-size: 14px;
+    color: #C271FF;
+}
+
+
+/* ==== REVIEW SECTION ==== */
+
+.review {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13px;
+}
+
+.review > div {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-left: 13px;
+}
+
+.review img {
+    width: 15px;
+    height: 15px;
+}
+
+.review span {
+    font-size: 14px;
+    color: #C271FF;
+}
