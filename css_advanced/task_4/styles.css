@@ -15,6 +15,7 @@ body {
     background-color: white;
     /* width: 800px; */
     height: 600px;
+    padding: 80px;
     /* text-align: center; */
 }
 
@@ -99,6 +100,8 @@ body {
     width: 30px;
     height: 30px;
     margin-left: 13px;
+    border: 0 solid black;
+    border-radius: 50%;
 }
 
 .author h3 {
@@ -126,8 +129,6 @@ body {
 .review img {
     width: 15px;
     height: 15px;
-    border: 0 solid black;
-    border-radius: 50%;
 }
 
 .review span {
