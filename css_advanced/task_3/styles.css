@@ -54,4 +54,5 @@ body {
 .quote p {
     font-size: 22px;
     color: white;
+    font-style: italic;
 }
