@@ -49,6 +49,7 @@ body {
 .free h2 {
     font-size: 18px;
     color: white;
+    font-weight: bold;
 }
 
 .free p {
