@@ -1,0 +1,57 @@
+/* ==== RESET DEFAULT ==== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* ==== MAIN CONTAINER ==== */
+
+.quote {
+    background-color: #C271FF;
+    height: 300px;
+    align-content: center;
+}
+
+.quote > div {
+    display: flex;
+    justify-content: center;
+    gap: 53px;
+}
+
+
+/* ==== IMAGE ==== */
+
+.quote img {
+    width: 160px;
+    height: 160px;
+    border: 0 solid black;
+    border-radius: 50%;
+}
+
+
+/* ==== BLOCKQUOTE ==== */
+
+.quote blockquote {
+    font-size: 22px;
+    color: white;
+    margin-left: 0px;
+}
+
+
+/* ==== NAME AND PROFESSION ==== */
+
+.quote span {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+.quote p {
+    font-size: 22px;
+    color: white;
+}
