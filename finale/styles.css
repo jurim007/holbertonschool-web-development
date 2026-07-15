@@ -1,0 +1,452 @@
+/* ==== RESER DEFAULTS ==== */
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* ==== HEADER CONFIGS ==== */
+
+header {
+    position: relative;
+    overflow: hidden;
+    padding: 50px;
+    text-align: center;
+    z-index: 0;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url(../images/background.png);
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+    z-index: -2;
+}
+
+header::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(ellipse at center 10%, #29303D00, #071629);
+    z-index: -1;
+}
+
+
+/* ==== NAV SECTION ==== */
+
+nav {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    gap: 703px;
+    height: 29px;
+    /* padding-top: 30px; */
+}
+
+nav > a {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+nav span {
+    font-size: 23px;
+    color: white;
+}
+
+nav > div {
+    display: flex;
+    justify-content: space-between;
+    width: 234px;
+}
+
+nav > div > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* ==== MAIN SECTION ==== */
+
+.main-part h1 {
+    font-size: 120px;
+    font-weight: bold;
+    color: white;
+    margin-top: 220px;
+    margin-bottom: 0px;
+}
+
+.main-part p {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.main-part button {
+    font-size: 14px;
+    color: white;
+    width: 164px;
+    height: 44px;
+    border: 0 solid black;
+    border-radius: 22px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #C271FF;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+
+/* ==== HERO SECTION ==== */
+
+.hero-section h2 {
+    font-size: 32px;
+    color: white;
+    margin-top: 100px;
+}
+
+.hero-section h2 span {
+    color: #C271FF;
+    font-weight: bold;
+    /* text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5); */
+}
+
+
+.hero-cards {
+    display: flex;
+    width: 1009px;
+    margin: 100px auto;
+    justify-content: space-between;
+}
+
+.hero-cards > div {
+    width: 150px;
+}
+
+
+.hero-cards > div > img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.hero-cards h3 {
+    font-size: 18px;
+    color: white;
+    margin-top: 8px;
+}
+
+.hero-cards p {
+    font-size: 16px;
+    color: #FFFFFF;
+    font-style: italic;
+    margin-top: 8px;
+}
+
+
+/* ==== QUOTE SECTION ==== */
+
+.quote {
+    background-color: #C271FF;
+    height: 299px;
+    align-content: center;
+}
+
+.quote > div {
+    display: flex;
+    justify-content: center;
+    gap: 53px;
+}
+
+.quote img {
+    width: 160px;
+    height: 160px;
+    border: 0 solid black;
+    border-radius: 50%;
+}
+
+.quote blockquote {
+    font-size: 22px;
+    color: white;
+    margin-left: 0px;
+}
+
+.quote span {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+.quote p {
+    font-size: 22px;
+    color: white;
+    font-style: italic;
+}
+
+
+/* ==== TUTORIAL SECTION ==== */
+
+.tutorials {
+    background-color: white;
+    /* width: 800px; */
+    height: 599px;
+    padding: 80px;
+    /* text-align: center; */
+}
+
+.tutorials h1 {
+    font-size: 32px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.tutorials h1 > span {
+    color: #C271FF;
+    font-weight: 700;
+}
+
+.tutorials > div {
+    display: flex;
+    justify-content: center;
+    gap: 31px;
+}
+
+.tutorials > div > div {
+    width: 255px;
+    height: 335px;
+}
+
+.tutorials h2 {
+    margin-left: 13px;
+    font-size: 16px;
+    color: #071629;
+    font-weight: bold;
+}
+
+.tutorials > div > div > p {
+    text-align: center;
+    font-size: 14px;
+    color: #808080;
+}
+
+.thumbnail {
+    width: 255px;
+    height: 154px;
+    position: relative;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.play {
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.author {
+    display: flex;
+}
+
+.author img {
+    width: 30px;
+    height: 30px;
+    margin-left: 13px;
+    border: 0 solid black;
+    border-radius: 50%;
+}
+
+.author h3 {
+    margin: 6px;
+    font-size: 14px;
+    color: #C271FF;
+}
+
+.review {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13px;
+}
+
+.review > div {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-left: 13px;
+}
+
+.review img {
+    width: 15px;
+    height: 15px;
+}
+
+.review span {
+    font-size: 14px;
+    color: #C271FF;
+}
+
+
+/* ==== FREE MEMBERSHIP SECTION ==== */
+
+.free {
+    background-color: #071629;
+    text-align: center;
+    padding: 70px;
+    /* width: 800px;
+    height: 593px; */
+}
+
+.free h1 {
+    font-size: 32px;
+    color: white;
+}
+
+.free h1 > span {
+    color: #C271FF;
+}
+
+.free > div {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 110px;
+}
+
+.free > div > div {
+    width: 257px;
+    height: 153px;
+}
+
+.free h2 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+.free p {
+    font-size: 14px;
+    color: white;
+}
+
+.free button {
+    border: 0px solid black;
+    border-radius: 22px;
+    width: 162px;
+    height: 44px;
+    background-color: #C271FF;
+    font-size: 14px;
+    color: white;
+    box-shadow: 0px 4px 8px black;
+    margin-top: 87px;
+}
+
+
+/* ==== FAQ SECTION ==== */
+
+.faq-section {
+  background-color: #ffffff;
+  width: 800px;
+  height: 708px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.faq-section h2 {
+  color: #071629;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0 0 60px;
+}
+
+.faq-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 60px 40px;
+}
+
+.faq-item {
+  padding: 0;
+}
+
+.faq-item h4 {
+  color: #071629;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 15px;
+}
+
+.faq-item p {
+  color: rgba(7, 22, 41, 0.5);
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0;
+}
+
+
+/* ==== FOOTER SECTION ==== */
+
+footer {
+  background-color: #071629;
+  height: 118px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+.footer-container {
+  width: 800px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-logo img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-logo span {
+  color: white;
+  font-weight: bold;
+}
+
+.copyright {
+  color: white;
+  margin: 0;
+}
+
+.social-media {
+  display: flex;
+  gap: 15px;
+}
+
+.social-media img {
+  width: 20px;
+  height: 20px;
+}
