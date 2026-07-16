@@ -4,4 +4,4 @@ This is the css section.
 
 It has 8 tasks.
 
-![alt text](../logo.png)
+![alt text](../images/logo.png)
